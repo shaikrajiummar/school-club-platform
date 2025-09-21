@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+h1 { text-align: center; }
+.club-container { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+.club-card { border: 1px solid #ccc; padding: 20px; width: 250px; border-radius: 10px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); }
+.club-card button { margin-top: 10px; padding: 5px 10px; cursor: pointer; }
+.join-form { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #fff; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0,0,0,0.2); z-index: 100; }
+.join-form input, .join-form textarea { width: 100%; margin-bottom: 10px; padding: 8px; }
+.join-form button { margin-right: 10px; padding: 8px 12px; }
